@@ -31,4 +31,4 @@ Our assignment was to create a website capable of displaying and storing ideas. 
 * CSS
 * HTML
 
-## In Action
+
