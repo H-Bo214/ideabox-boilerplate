@@ -87,7 +87,6 @@ img {
   display: flex;
   flex: 1;
   flex-direction: column;
-
 }
 
 .idea-form {
@@ -223,8 +222,17 @@ button {
   background: #5356a4;
   border: none;
 }
+
 .active-star {
   content:url('assets/star-active.svg')
+}
+
+.mini-menu {
+  display: none;
+}
+
+.mini-show-starred {
+  opacity: 50%;
 }
 
 /*=== media queries ===*/
@@ -250,16 +258,6 @@ button {
   }
 }
 
-.mini-menu {
-  display: none;
-}
-
-.mini-show-starred {
-  opacity: 50%;
-}
-
-
-
 @media only screen and (max-width: 780px) {
 
   body {
@@ -270,7 +268,6 @@ button {
 
   .mini-menu {
     visibility: visible;
-    /* background: #1F1F3D; */
     display: flex;
     height: 100%;
     position: absolute;
@@ -291,7 +288,7 @@ button {
   }
 
   .menu {
-    height: 100%;
+    height: 10em;
     width: 100%;
     display: flex;
     padding-top: 20px;
@@ -308,7 +305,6 @@ button {
   .menu.menu-open .hamburger-img {
     display: none;
   }
-
 
   .menu-items {
     display: flex;
